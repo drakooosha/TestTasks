@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/basic.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="content">
+    <button class="content__btn">Открыть форму</button>
+    <div class="modal">
+      <form action="" class="form">
+        <h2 class="form__title">Стать партнёром проекта</h2>
+        <div class="form__content">
+          <div class="form__required">
+            <ul class="form__items form__items-required">
+              <li class="form__item">
+                <label class="form__label required" for="name">Название организации</label>
+                <input class="form__input form__input--name" type="text" required id="name" placeholder="Введите название организации">
+              </li>
+              <li class="form__item">
+                <label class="form__label required" for="tel">Телефон</label>
+                <input class="form__input form__input--phone" type="tel" id="tel" required placeholder="Введите номер телефона">
+              </li>
+              <li class="form__item">
+                <label class="form__label required" for="mail">E-mail</label>
+                <input class="form__input form__input--mail" type="email" required id="mail" placeholder="Введите вам имейл">
+              </li>
+            </ul>
+            <div class="form__image">
+              <span class="form__label form__label--big required">Логотип (jpeg, png)</span>
+              <div class="form__file">
+                <button class="form__clear" type="button"></button>
+                <img class="form__img" src="assets/img/icons/drag.svg" alt="User">
+                <label class="form__choose" for="file">Выберите файл</label>
+                <input class="form__input form__input--file" type="file" id="file">
+              </div>
+            </div>
+            <div class="form__item form__item--select">
+              <label class="form__label required" for="areas">Направление</label>
+              <select class="form__input form__input--select" id="areas">
+                <option class="form__oprion" value="" disabled selected>Выберите направление</option>
+                <option class="form__oprion" value="ecology">Экология</option>
+                <option class="form__oprion" value="economy">Экономика</option>
+              </select>
+            </div>
+          </div>
+          <div class="form__socials">
+            <ul class="form__items form__items--socials">
+              <li class="form__item">
+                <input class="form__input form__input--socials form__input--site" type="text" placeholder="avc.ru">
+              </li>
+              <li class="form__item">
+                <input class="form__input form__input--socials form__input--vk" type="text" placeholder="vk.com/shans">
+              </li>
+              <li class="form__item">
+                <input class="form__input form__input--socials form__input--ok" type="text" placeholder="ok.com/shans">
+              </li>
+              <li class="form__item">
+                <input class="form__input form__input--socials form__input--facebook" type="text" placeholder="facebook.com/shans">
+              </li>
+              <li class="form__item">
+                <input class="form__input form__input--socials form__input--inst" type="text" placeholder="instagram.com/shans">
+              </li>
+              <li class="form__item">
+                <input class="form__input form__input--socials form__input--youtube" type="text" placeholder="youtube.com/shans">
+              </li>
+              <li class="form__item">
+                <label class="form__label" for="director">Руководитель</label>
+                <input class="form__input" type="text" placeholder="Александров Иван Васильевич" id="director">
+              </li>
+            </ul>
+          </div>
+          <div class="form__bottom">
+            <button class="form__btn form__btn--submit form__btn-disabled disabled" type="submit">Стать партнёром проекта</button>
+            <button class="form__btn form__btn--reset" type="reset">Отменить</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <script src="js/validation.js"></script>
+  <script src="js/modal.js"></script>
+</body>
+
+</html>
