@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'PTSans-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../assets/fonts/PTSans-Regular.woff2') format('woff2'),
+       url('../assets/fonts/PTSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PTSans-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../assets/fonts/PTSans-Bold.woff2') format('woff2'),
+       url('../assets/fonts/PTSans-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato-semibold';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../assets/fonts/Lato-semibold.woff2') format('woff2'),
+       url('../assets/fonts/Lato-semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../assets/fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+       url('../assets/fonts/Montserrat-ExtraBold.woff') format('woff');
+}
